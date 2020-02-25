@@ -1,0 +1,17 @@
+
+
+  .allusers{
+    background-color: dimgrey; 
+    height:609px;
+    padding: 10% 0 0 0;
+  }
+  .allusers table {
+    color: white;
+  
+    width: 69%;
+    margin-left: 10%;
+  }
+  .allusers table th{text-align: center;}
+  .allusers button { width:100% ; margin: 0; padding: 5px;}
+  .allusers button:hover{width: 100%; margin: 0px; color:  rgb(158, 242, 253);}
+  .allusers table h1 pre{color: white;}
