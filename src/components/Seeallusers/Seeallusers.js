@@ -8,7 +8,7 @@ class Seeallusers extends Component {
       data: []
     }
   }
-  componentWillMount() {
+  componentDidMount() {
     axios.get('http://localhost:3000/usersdetails').then(res => {
       this.setState({ data: res.data })
       console.log(res.data);

@@ -25,9 +25,10 @@ class Userlogin extends Component {
 			var result = res.data.filter(result => {
 				return userInput.email === result.email && userInput.password === result.password;
             });
-            console.log(result)
+           
 			if (result.length > 0) {
-				
+				const { email} = this.state;
+        localStorage.setItem('email', email);
 			 this.props.history.push('/userdashboard')
             }
              else {
@@ -36,16 +37,16 @@ class Userlogin extends Component {
     });
     };
 
-    handleformsubmit=()=>{
-        const { email} = this.state;
-        localStorage.setItem('email', email);
-    }
+    // handleformsubmit=()=>{
+    //     const { email} = this.state;
+    //     localStorage.setItem('email', email);
+    // }
 
     
     render() {
         return (
             <div className='sdd'>
-                  <form onSubmit={this.handleformsubmit}>
+                  <form >
                   <div className="login form-group">
             
                   
