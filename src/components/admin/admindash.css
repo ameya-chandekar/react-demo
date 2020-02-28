@@ -1,14 +1,27 @@
-
 /* this is home components ss */
-.home{
+
+.home {
     background-color: dimgrey;
     font-family: sans-serif;
     height: 605px;
     padding-top: 10%;
 }
 
-  .home button{width: 100%; margin: 0px; }
-  .home button:hover{width: 100%; margin: 0px; color:  rgb(158, 242, 253);}
-  .home Link{text-decoration: none;}
-  .home h1 {color: white;}
+.home button {
+    width: 100%;
+    margin: 0px;
+}
 
+.home button:hover {
+    width: 100%;
+    margin: 0px;
+    color: rgb(158, 242, 253);
+}
+
+.home Link {
+    text-decoration: none;
+}
+
+.home h1 {
+    color: white;
+}

@@ -1,25 +1,38 @@
-
-.register{
+.register {
     background-color: dimgrey;
     font-family: sans-serif;
-
 }
 
-    
-.register .form-control{
+.register .form-control {
     width: 50%;
-    padding-top:5px;
-    padding-bottom:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: 10px 10% 10px 10%;
 }
 
-.register h1{ color: white;  padding:20px 0px; margin-left: 1%;}
-.register label{ color:whitesmoke; margin-left:10%;}
+.register h1 {
+    color: white;
+    padding: 20px 0px;
+    margin-left: 1%;
+}
+
+.register label {
+    color: whitesmoke;
+    margin-left: 10%;
+}
+
+.btn {
+    margin: 10px 0 20px 10%;
+    background: white;
+}
+
+.btn:hover {
+    color: rgb(158, 242, 253);
+}
+
+input:hover::placeholder {
+    color: rgb(158, 242, 253)
+}
 
 
-
-
-.btn{margin:10px 0 20px 10% ; background:white; }
-.btn:hover{color: rgb(158, 242, 253);}
-input:hover::placeholder{color:rgb(158, 242, 253)}
 /* h1{} */

@@ -1,29 +1,45 @@
-.Admin-login{ background-color: dimgrey;
+.Admin-login {
+    background-color: dimgrey;
     height: 610px;
     padding-top: 70px;
-  }
-  .Admin-login-wrapper{
-      background-color: dimgrey;
-      font-family: sans-serif;
-      width: 30%;
-     margin-left: 35%;
-     border-style: solid;
-     border-color: white;
-  }
-  .Admin-login .form-control{
-      width: 70%;
-      padding-top:5px;
-      padding-bottom:5px;
-      margin: 10px 10% 10px 10%;
-  }
-  .Admin-login label{ color:whitesmoke; margin-left:10%;}
-  .Admin-login h1{ color: white;  padding:20px 0px 20px 20px; margin-left: 10%;}
-   .btn:hover{color: rgb(158, 242, 253);}
-  .fp a{
-      color: red;
-      margin-left: 10%;
-  }
-  .fp a:hover {
-      color: rgba(255, 0, 0, 0.527);
-    }
-  
+}
+
+.Admin-login-wrapper {
+    background-color: dimgrey;
+    font-family: sans-serif;
+    width: 30%;
+    margin-left: 35%;
+    border-style: solid;
+    border-color: white;
+}
+
+.Admin-login .form-control {
+    width: 70%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px 10% 10px 10%;
+}
+
+.Admin-login label {
+    color: whitesmoke;
+    margin-left: 10%;
+}
+
+.Admin-login h1 {
+    color: white;
+    padding: 20px 0px 20px 20px;
+    margin-left: 10%;
+}
+
+.btn:hover {
+    color: rgb(158, 242, 253);
+}
+
+.fp a {
+    color: red;
+    margin-left: 10%;
+}
+
+.fp a:hover {
+    color: rgba(255, 0, 0, 0.527);
+}
